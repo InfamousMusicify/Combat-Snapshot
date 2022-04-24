@@ -13,7 +13,8 @@ I think all of us are tired of health not regenerating after 1.5 nuggets deplete
 `/function combsnap:config` - to configure the data pack  
 `/function combsnap:uninstall` - to uninstall all releavent scorebaords/tags.   
 
-## [🔗Download🔗](https://github.com/InfamousMusicify/Combat-Snapshot/archive/refs/heads/master.zip)
+## [🔗Download (Direct)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases) [🔗Master .ZIP (Loose Files)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/archive/refs/heads/master.zip)
+
 
 __[🔗 How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)__     
 [🔗MC .net article on latest snpashot](https://www.minecraft.net/en-us/article/experimental-java-edition-combat-snapshot-v5)     
