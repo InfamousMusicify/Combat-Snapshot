@@ -3,9 +3,9 @@
 
 ### *Hunger system from jeb_'s experimetnal combat snapshots!*   
 
-I will add the sprinting mechanic to this if I can, but this is mostly just something to get close to the combat snapshot in functionality.   
 I think all of us are tired of health not regenerating after 1.5 nuggets deplete.    
 `Your health will now replenish until you have 3 nuggets left.` (6 Points)  
+Sprinting below 3 nuggtes! (you will get speed 2 when your hunger falls below 6 points, workaround since sprint is locked)   
 
    Commands:   
 `/trigger combsnap` - toggle combat snapshot (per player)     
