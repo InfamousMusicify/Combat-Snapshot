@@ -8,7 +8,7 @@ I think all of us are tired of health not regenerating after 1.5 nuggets deplete
 `Your health will now replenish until you have 3 nuggets left.` (6 Points)  
 
    Commands:   
-`/trigger combsnap` - sends the player a random message     
+`/trigger combsnap` - toggle combat snapshot (per player)     
    OPs can use theese commands:   
 `/function combsnap:config` - to configure the data pack  
 `/function combsnap:uninstall` - to uninstall all releavent scorebaords/tags.   
