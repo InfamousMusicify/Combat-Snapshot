@@ -8,10 +8,10 @@ I think all of us are tired of health not regenerating after 1.5 nuggets deplete
 Sprinting below 3 nuggtes! (you will get speed 2 when your hunger falls below 6 points, workaround since sprint is locked)   
 
    Commands:   
-`/trigger combsnap` - toggle combat snapshot (per player)     
+`/trigger combsnap` - toggle combat snapshot health or sprint (per player)     
    OPs can use theese commands:   
-`/function combsnap:config` - to configure the data pack  
 `/function combsnap:uninstall` - to uninstall all releavent scorebaords/tags.   
+~~`/function combsnap:config` - to configure the data pack~~  
 #
 ### [🔗Download (Direct)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases) 
 ### [🔗Master .ZIP (Loose Files)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/archive/refs/heads/master.zip)   
