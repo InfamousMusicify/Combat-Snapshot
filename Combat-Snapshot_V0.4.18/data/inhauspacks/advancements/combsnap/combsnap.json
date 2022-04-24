@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "Snapshot Mechanics:                                                              ",
+        "description": ["",
+        {"text":"/trigger combsnap","color":"yellow"},{"text":" - (turn pack on/off)","color":"gold"},{"text":"\n"},
+        {"text":"Natural healing is faster.","color":"green"},{"text":"\n"},
+        {"text":"Natural healing works longer\n(Until: 6 points)","color":"dark_green"}
+    ],
+    "icon": {
+        "item": "minecraft:netherite_chestplate"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+    },
+    "parent": "inhauspacks:combsnap",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
