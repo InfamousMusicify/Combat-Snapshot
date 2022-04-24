@@ -11,7 +11,7 @@ Sprinting below 3 nuggtes! (you will get speed 2 when your hunger falls below 6 
 `/trigger combsnap` - toggle combat snapshot health or sprint (per player)     
    OPs can use theese commands:   
 `/function combsnap:uninstall` - to uninstall all releavent scorebaords/tags.   
-~~`/function combsnap:config` - to configure the data pack~~  
+`/function combsnap:config` - to configure the data pack (not recomended to change)
 #
 ### [🔗Download (Direct)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases) 
 ### [🔗Master .ZIP (Loose Files)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/archive/refs/heads/master.zip)   
