@@ -4,3 +4,4 @@ scoreboard objectives remove combsnap.cooldown
 scoreboard objectives remove combsnap.config
 scoreboard objectives remove combsnap
 tag @a remove combsnap.off
+tag @a remove combsnap.sprint.off

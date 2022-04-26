@@ -14,3 +14,11 @@ execute unless score #cooldown combsnap.config matches 0.. run scoreboard player
 schedule function combsnap:tick 1t
 schedule function combsnap:decrement_cooldowns 1s
 # # # 
+
+
+
+#Notes:
+# data get entity @s foodSaturationLevel
+# scoreboard objectives add combsnap.sat dummy
+#
+#
