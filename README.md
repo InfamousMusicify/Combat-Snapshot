@@ -1,4 +1,4 @@
-# [Experimental Combat Snapshot]()     
+# [Experimental Combat Snapshot](https://github.com/InfamousMusicify/Combat-Snapshot/releases/)     
 ### Minecraft: Java Edition - Data Pack  
 
 ### *Hunger system from jeb_'s experimetnal combat snapshots!*   
@@ -7,16 +7,15 @@ I think all of us are tired of health not regenerating after 1.5 nuggets deplete
 `Your health will now replenish until you have 3 nuggets left.` (6 Points)  
 Sprinting below 3 nuggtes! (you will get speed 2 when your hunger falls below 6 points, workaround since sprint is locked)   
 
+### [🔗Download🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases)  
+### This pack pairs well with: [1.8 Combat](https://github.com/InfamousMusicify/1.8-Combat)
+
    Commands:   
 `/trigger combsnap` - toggle combat snapshot health or sprint (per player)     
    OPs can use theese commands:   
 `/function combsnap:uninstall` - to uninstall all releavent scorebaords/tags.   
-`/function combsnap:config` - to configure the data pack (not recomended to change)
-#
-### [🔗Download (Direct)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases) 
-### [🔗Master .ZIP (Loose Files)🔗](https://github.com/InfamousMusicify/Combat-Snapshot/archive/refs/heads/master.zip)   
-### This pack pairs well with: [1.8 Combat](https://github.com/InfamousMusicify/1.8-Combat)
-#
+`/function combsnap:config` - configure datapack (changing not recommended, lowering regen increment makes the game very easy)
+
 
 __[🔗 How to Install a Datapack](https://www.planetminecraft.com/blog/how-to-download-and-install-minecraft-data-packs/)__     
 [🔗MC .net article on latest snpashot](https://www.minecraft.net/en-us/article/experimental-java-edition-combat-snapshot-v5)     
