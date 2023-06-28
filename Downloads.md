@@ -11,7 +11,7 @@
 
 ### [🔗1.17](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.17/CombSnap_V1.0.0-1.20-1.17.zip)   
 
-### [🔗1.16.2 - 1.16.5](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.16.2/CombSnap_V1.0.0-1.20-1.16.2.zip)   
+### [🔗1.16.2 - 1.16.5](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.16.2/CombSnap_V1.0.0-1.20-1.16.zip)   
 
 ### [🔗1.15 - 1.16.1](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.15-1.16.1/CombSnap_V1.0.0-1.20-1.15-16.zip)   
 
