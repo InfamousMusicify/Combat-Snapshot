@@ -10,6 +10,7 @@ Sprinting below 3 nuggtes! (you will get speed 2 when your hunger falls below 6 
 ### [🔗Download🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases)  
 ### This pack pairs well with: [1.8 Combat](https://github.com/InfamousMusicify/1.8-Combat)
 
+#### This is the Vanilla version, health regens every 4 seconds like in vanilla, rather than 3 seconds as in jebs combat snapshots.
    Commands:   
 `/trigger combsnap` - toggle combat snapshot health or sprint (per player)     
    OPs can use theese commands:   
