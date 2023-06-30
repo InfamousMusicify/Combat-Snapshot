@@ -1,0 +1,162 @@
+#            reddit 1:
+major changes:
+    Overall much faster attacks
+    Attacks only happen when fully charged, even if you spam click
+    You can hold to attack
+    Weapons have different reach (attack range)
+    When you stop attacking, the attack timer will continue charging to 200%
+    At 200% you can perform special attacks (crits, sweeping, knockback) and these attacks have longer reach
+    Sweeping only occurs on swords with the Sweeping enchantment
+    Critical attacks (jump attacks) bypass shields
+    Shields have no warm-up delay
+    Shields also activate when crouching/sneaking
+    If you hit something, the target's "invulnerability timer" will be shorter if you have a quick weapon
+
+#            Reddit 2:
+ These are the edits in this version:
+    Decreased attack speed of swords
+    Attacking while crouching will now disable the shield during the attack
+    Shields protect against critical attacks again
+    Removed auto-attacking by holding the button
+    Fixed creative mode bugs
+    Fixed scale of the hotbar attack indicator
+Some clarifications:
+    The theme of the next major update will be announced at MINECON. These combat tests are done in parallel and will be included when they're good enough (i.e. the next theme is not "combat update")
+    Weapon reach is always active (not only for special attacks), but during special attacks the reach is increased by an additional half a block
+    Hold to auto-attack will always be enabled for controller and touch
+
+#            Reddit 3:
+ I went through the comments on the previous post and the topics on the feedback site, and made a couple of changes:
+    Returned Sword speed to 3.0 (from 2.5)
+    Re-introduced hold-to-attack, but attacks now happen at "120%" charge which is slightly slower than optimal spam clicking
+    Knockback resistance is now a scale instead of a dice roll (less RNG)
+    Axes now always disable shields for 1.6s, instead of a 25% chance to disable them for 5s (less RNG)
+    Axes now only take 1 durability damage for attacking
+    Axes now have a new "Chopping" enchantment that adds +1 damage and +.5s shield stun per level (max 3 levels)
+    Projectiles no longer trigger the invulnerability timer, which means that a Multishot crossbow can hit (and deal damage) with all three arrows
+    Shields protective arc has been decreased to ~100 degrees instead of 180 degrees
+    Added a "Shield Indicator" option that displays when the shield is active (similar to the attack indicator)
+    Added an option to hide the shield when it's active
+Additional notes:
+The Chopping enchantment is experimental. You can still apply Sharpness to axes in the anvil, but Sharpness and Chopping are mutually exclusive. An option here is to change Chopping so that it only affects shields, and let axes get Sharpness from enchanting, but currently there are no mobs in the game that use shields so in that case Chopping would be meaningless in PvE.
+The delay to auto-attacking will likely be removed when we add the system to Bedrock for controllers and touch. It may be a mouse-and-keyboard only limitation. 
+
+#            Reddit 4:
+First of all, some basic combat changes:
+    The attack timer now only resets when you actually perform an attack (it's unaffected by switching items)
+    Critical attacks (jump-attacks) will now trigger at 100% (no need to wait)
+    Knockback attacks (sprint-attacks) will now trigger at 100%
+    Default attack reach has been decreased by 0.5 (to 2.5 blocks)
+    The full timer ("200%") attack now has +1.0 reach (was 0.5)
+    Arrow accuracy has been increased ("uncertainty" value decreased from 1.0 to 0.25)
+Some shield changes:
+    Added an option to disable the use-shield-on-crouch (it's in the accessibility menu)
+    Removed the option to hide the shield
+Some trident parity changes:
+    Tridents can be shot from dispensers
+    Tridents with Loyalty that fall into the void will return to its owner
+    Tridents with Impaler now deal enchantment damage to all mobs that are in water or rain
+Some random snowball changes:
+    Snowballs now stack to 64
+    Snowballs have a 4 tick cooldown
+    Snowballs are not rendered the first 2 ticks (hack to prevent screen flickering)
+Axe enchantments:
+    All damage enchantments can be applied to axes in the enchanting table
+    Chopping hasn't been changed (I point this out because there was a lot of Chopping feedback)
+
+#            Reddit 5:
+After a lot of thinking on these problems I decideded to make the following main changes:
+    Make weapons weaker
+    Remove the regeneration boost from food saturation
+In detail, weapons:
+    Stone tier lowered to +0 (same as wood, was +1)
+    Iron tier lowered to +1 (was +2)
+    Diamond tier lowered to +2 (was +3)
+    Swords lowered to +2 (was +3)
+    Axes lowered to +3 (was +4)
+    Trident lowered to 5 (was 6)
+For example, a Diamond Sword now deals 2+2+2=6 points of damage. This was 2+3+3=8 in the previous test, and 1+3+3=7 in 1.9/1.8 (base damage is 2 now, same as on Bedrock).
+In detail, food rebalance:
+    Saturation boost removed
+    Eating food is now slower (40 ticks, was 32 ticks)
+    Natural healing works longer (down to 6 food points, used to be down to 18)
+    Natural healing is faster (every 3 seconds, was 4)
+    New: Natural healing now always drains food points. Saturation is not used when healing damage, and is only relevant as a "pause" until food drains (as originally intended)
+    Sprinting is no longer affected by the food value
+Other changes:
+    Various block-hitting and air-swinging bug fixes
+    Made it possible to hit players with snowballs (TODO: game rule)
+    Reintroduced upwards knockback when hitting players in the air... Probably too strong right now, but can be balanced later
+    Changed the swing animation to emphasize the rythm of the attacks
+    Added cooldown to egg
+Bonus controversial edit...
+    Added a kind of "Coyote Time" that activates for a fraction of a second if you aim at something but attack outside its bounding box. The background to this change is that since you can't attack between swings, it often gave the impression that your input was "lost". It also made fighting small and fast targets (rabbits or baby zombies) unneccessarily frustrating
+
+#            Reddit 6:
+Redesigned aim assist again. Different approach this time, NO LESS CONTROVERSIAL!
+    Removed "Coyote Time"
+    Entities with bounding boxes that are smaller than 0.9 of a block are inflated (for targeting purposes) to be 0.9 of a block (rabbits, bats, etc)
+    Swords always have sweeping attacks again, axes have it with the Sweeping enchantment
+    Missing now only puts a 4 tick delay until the next attack regardless of weapon.
+    Increased base reach to 3 (was 2.5) and removed bonus reach for delayed attacks
+Changes to shields:
+    Shields now only protect up to 5 damage for melee attacks (still 100% against projectiles)
+    Shields recover faster after an attack
+Changes to axes:
+    Renamed Chopping to Cleaving
+    Removed other weapon enchantments from the enchanting table. The axes simply had too many possible enchantments. It also feels a little bit fitting with a rare Cleaving enchantment than a common Sharpness enchantment for axes
+Changes to bows / projectiles:
+    Player momentum is added to thrown projectiles, but only in the direction you are aiming
+    Bow and arrow accuracy now slowly decreases the longer you pull the bow
+Changes to food and hunger:
+    Reverted eating time to 32 ticks
+    Eating is now interrupted if something hits you
+    Natural healing is even faster (2 seconds, was 3 seconds)
+    Natural healing drains food 50% slower
+    By popular request - Reintroduced the rule that sprinting requires more than 6 points of food
+Other changes:
+    Removed the attack indicator completely since it is no longer used by any systems
+    Fixed knockback calculation
+    Fixed damage value on items being off-by-one client-side
+    Fixed bug that caused players to be unable to attack/interract after respawning
+    Nerfed Sweeping Edge enchantment to 25/33/37.5 percent (was 50/66/75%)
+
+#            Reddit 7:
+Features that have been changed back:
+    Returned the attack indicator
+    Returned the "200% time" attacks (let's call them "charged" attacks) and the +1 reach bonus
+    Returned sweeping to only work for charged attacks and when having the Sweeping enchantment
+    Returned base reach to 2.5 blocks
+    Removed the bow inaccuracy for holding too long
+    Removed the eating interruption for getting hit
+Features that have been adjusted:
+    Missed attacks are still fast, but they don't count as charged. Because of how the programming code is laid out it meant I had to change how the auto-attack "penalty" is applied. Instead of being 20% slower, they add a hard-coded single tick to the attack rate (i.e. after a miss you can optimally attack again after 4 ticks, or after 5 ticks when holding the attack)
+    Shields now add a 50% knockback resistance when active
+    Shields are now always instant
+    Shields protect against 100% explosion damage
+    You won't get the reach bonus while you are crouching (to add a slight disadvantage to shielding and attacking simultaneously)
+Bug fixes:
+    Netherite weapons have updated stats
+    Using shields while crouching is now no longer desynchronized when attacking air
+    Players in spectator mode can no longer sweep in the air
+    Knockback attribute no longer have a random chance to completely prevent knockback
+    Fixed player speed bug for crouching vs using shield (thanks u/Dual_Iron) 
+
+#            Reddit 8:
+Features that have made a return:
+    Returned eating interruption for getting hit (by players or mobs), also applies to drinking
+    Returned bow fatigue for holding the bow pulled, but it doesn't start until 3 seconds. Bow fatigue will also cancel out "critical arrows"
+Balance changes:
+    Weapon enchantments are now included in the base damage when calculating crits and potion effects
+    Strength I/II now adds +20%/+40% (was +3/+6 damage)
+    Instantenous effects on tipped arrows are now scaled by 1/8, just like the duration of other effects
+    Healing potions now heal 6 points per level (was 4)
+    Cleaving now adds +2/+3/+4 points of damage (was +1/+2/+3)
+    Liquid food (stews, honey, milk) can now be consumed faster (20 ticks, was 32 or 40 ticks)
+    Potions can now be drunk faster (20 ticks, was 32 ticks)
+Bug fixes:
+    Fixed shield protection arcs... again!
+    Improved server-side attack range calculations, should hopefully mean fewer "false misses" but still needs more work
+
+
+
