@@ -17,6 +17,8 @@ Inventory: [{Slot: 0b, id: "minecraft:ender_pearl", Count: 16b}, {Slot: 1b, id: 
 
 
 attribute @s minecraft:generic.max_health get
+attribute @s minecraft:generic.attack_damage get
+attribute @s minecraft:generic.attack_speed get
 data get entity @s foodLevel
 data get entity @s foodSaturationLevel
 data get entity @s Health
