@@ -1,4 +1,3 @@
-# combsnap:health
 # fix cooldown, scoreboard enable sim
 execute unless score @s combsnap.cooldown matches 0.. run scoreboard players add @s combsnap.cooldown 0
 execute as @s store result score @s combsnap.saturation run data get entity @s foodSaturationLevel
@@ -30,3 +29,7 @@ scoreboard players operation @s[scores={combsnap.saturation=0}] combsnap.cooldow
 
 #6 or 7 for base game quick regen
 #
+
+
+
+

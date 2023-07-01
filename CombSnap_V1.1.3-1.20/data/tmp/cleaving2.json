@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "tag": "minecraft:axes",
+        "nbt": "tag:{display:{Lore:['{\"text\":\"Cleaving\",\"color\":\"gray\",\"italic\":false}']}}"
+      }
+    }
+  }
+}

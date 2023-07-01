@@ -1,0 +1,16 @@
+{
+    "__comment": "ttt",
+    "criteria": {
+        "hit_entity": {
+            "trigger": "minecraft:player_hurt_entity"
+        }
+    },
+    "requirements": [
+        [
+            "hit_entity"
+        ]
+    ],
+    "rewards": {
+        "function": "combsnap:hurt_entity"
+    }
+}
