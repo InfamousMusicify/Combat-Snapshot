@@ -1,10 +1,17 @@
 # [Experimental Combat Snapshot](https://github.com/InfamousMusicify/Combat-Snapshot/releases/)     
 ### Minecraft: Java Edition - Data Pack  
 
-### *Hunger system from jeb_'s experimetnal combat snapshots!*   
+### *Datapack Version of jeb_'s experimetnal combat snapshots!*   
 
 I think all of us are tired of health not regenerating after 1.5 nuggets deplete.    
-`Your health will now replenish until you have 3 nuggets left.` (6 Points)  
+`Your health will now replenish until you have 3 nuggets left.` (6 Points)    
+Weapons overall are weaker.    
+Spam click with less of a penalty!    
+Overcharge instead of a cooldown on attacks. gain 200% dmg at full charge.     
+Saturation now works as intended. as a pause, instead of more food.      
+Hunger depletes slower (1/3 nugget to 1/2 heart)      
+
+Optional in config: -off by default
 Sprinting below 3 nuggtes! (you will get speed 2 when your hunger falls below 6 points, workaround since sprint is locked)   
 
 ### [🔗Download🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases)  
