@@ -4,13 +4,13 @@
             "item": "minecraft:netherite_sword"
         },
         "title": {
-            "text": " Experimental Combat Snapshot - Hunger",
+            "text": " Experimental Combat Snapshot   ",
             "color": "white",
             "bold": false,
             "italic": false
         },
         "description": {
-            "text": "Hunger system from jeb_'s experimetnal combat snapshots!",
+            "text": "jeb_'s experimetnal combat snapshot.\n   Datapack version.    By Infamous",
             "color": "green",
             "bold": false,
             "italic": false

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Snapshot Commands:                                                              ",
+        "description": ["",
+        {"text":"/trigger combsnap","color":"yellow"},{"text":" - (toggles)","color":"gold"},{"text":"\n"},
+        {"text":"/function combsnap:config","color":"green"},{"text":" (settings)","color":"gold"}
+    ],
+    "icon": {
+        "item": "minecraft:iron_sword"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+    },
+    "parent": "inhauspacks:combsnap/combsnap2",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

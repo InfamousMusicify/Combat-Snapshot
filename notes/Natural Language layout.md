@@ -17,11 +17,14 @@
 
 
 # next things i want to do
-Trident return from void with loyalty
+# Trident return from void with loyalty
 
 snowballs stack to 64
 snowballs hit players
 
 Strength I/II now adds +20%/+40% (was +3/+6 damage)
+Healing potions now heal 6 points per level (was 4)
 
+
+#####
 Make Presets when pack is done.

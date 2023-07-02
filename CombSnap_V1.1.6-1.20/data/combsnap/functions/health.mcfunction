@@ -6,7 +6,7 @@
 #jebs system   1/3 hunger bar per half heart regen rate, every 2 seconds, this version ignore sturation altogether, jebs reverses current saturation essentially.
 #effect give @s minecraft:regeneration 2 1 true
 #effect give @s minecraft:hunger 1 25 true
-#scoreboard players operation @s combsnap.cooldown = #cooldown combsnap.config
+#scoreboard players operation @s combsnap.regen_rate = #cooldown combsnap.config
 
 ###########################################################################################################################################################################
 # create jebs new saturation system.
@@ -25,7 +25,7 @@ effect give @s[scores={combsnap.saturation0=2..}] minecraft:hunger 1 150 true
 effect give @s[scores={combsnap.saturation0=3..}] minecraft:hunger 1 255 true
 
 
-scoreboard players operation @s combsnap.cooldown = #cooldown combsnap.config
+scoreboard players operation @s combsnap.regen_rate = #cooldown combsnap.config
 
 
 

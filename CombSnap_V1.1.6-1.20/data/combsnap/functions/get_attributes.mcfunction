@@ -1,5 +1,8 @@
 #get_attributes
-execute if score #faster_combat combsnap.config matches 1.. run attribute @s[predicate=!combsnap:axes] minecraft:generic.attack_speed base set 25
+execute if score #faster_combat combsnap.config matches 0 run attribute @s minecraft:generic.attack_speed base set 4
+execute if score #faster_combat combsnap.config matches 1 run attribute @s minecraft:generic.attack_speed base set 25
+execute if score #faster_combat combsnap.config matches 2.. run attribute @s minecraft:generic.attack_speed base set 8
+
 execute store result score @s combsnap.maxhealth run attribute @s minecraft:generic.max_health get
 execute store result score @s combsnap.saturation0 run data get entity @s foodSaturationLevel
 

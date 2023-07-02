@@ -4,10 +4,9 @@ scoreboard objectives remove combsnap.maxhealth
 scoreboard objectives remove combsnap.saturation
 scoreboard objectives remove combsnap.saturation0
 scoreboard objectives remove combsnap.overcharge
-scoreboard objectives remove combsnap.config
-scoreboard objectives remove combsnap.cooldown
+scoreboard objectives remove combsnap.regen_rate
 scoreboard objectives remove combsnap
-tag @a remove combsnap.off
-tag @a remove combsnap.sprint.off
-tag @a remove combsnap.on
-tag @a remove combsnap.sprint.on
+#scoreboard objectives remove combsnap.config "Config scoreboard"
+schedule clear combsnap:tick
+schedule clear combsnap:tick_1s
+schedule clear combsnap:decrement_cooldowns
