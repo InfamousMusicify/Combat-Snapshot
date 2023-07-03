@@ -3,12 +3,11 @@
 
 ### *Datapack Version of jeb_'s experimetnal combat snapshots!*   
 
-I think all of us are tired of health not regenerating after 1.5 nuggets deplete.    
-`Your health will now replenish until you have 3 nuggets left.` (6 Points)    
+    
 Weapons overall are weaker.    
 Spam click with less of a penalty!    
-Overcharge to 200% instead of a cooldown on attacks. gain 1+ dmg at full charge.     
-Saturation now works as intended. as a pause, instead of more food.      
+Overcharge to 200% instead of a cooldown on attacks. gain 1+ dmg at full charge.    Your health will now replenish until you have 3 nuggets left. (6 Points)    
+Saturation now works as intended, as a pause, instead of more food.      
 Health recharges faster.   
 Hunger depletes slower (1/3 nugget to 1/2 heart)      
 
