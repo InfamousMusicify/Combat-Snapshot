@@ -1,0 +1,21 @@
+{
+    "criteria": {
+            "Strength": {
+                "trigger": "minecraft:consume_item",
+            "conditions": {
+                    "item": {
+                        "item": "minecraft:potion",
+                    "potion": "minecraft:strength"
+                }
+            }
+        }
+    },
+    "requirements": [
+            [
+                "Strength"
+        ]
+    ],
+    "rewards": {
+            "function": "combsnap:strength"
+    }
+}

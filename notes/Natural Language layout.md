@@ -12,19 +12,36 @@
 # maybe, set to 8 by default, if player hits set attack speed to 25.
 
 
-# there are predicates to detect if a player is hold a sword or axe, also with tags.
-
-
-
-# next things i want to do
 # Trident return from void with loyalty
 
-snowballs stack to 64
-snowballs hit players
 
-Strength I/II now adds +20%/+40% (was +3/+6 damage)
-Healing potions now heal 6 points per level (was 4)
+
+
+# Healing potions now heal 6 points per level (was 4)
 
 
 #####
 Make Presets when pack is done.
+
+
+
+
+
+
+
+########################## scrapped ideas (to much work/lag and i expect jeb may add these later.)
+Cleaving
+Impaling damage mods in the rain
+################# just cut
+sheilds -all
+knockback mods
+bow and arrow mods
+enchant damage mods
+
+snowballs stack to 64
+snowballs hit players
+
+
+
+# cut for lag and stuff
+Strength I/II now adds +20%/+40% (was +3/+6 damage)              -ovrcharge 2 ?
