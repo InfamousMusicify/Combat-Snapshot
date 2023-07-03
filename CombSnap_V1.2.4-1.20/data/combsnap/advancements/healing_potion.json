@@ -1,0 +1,21 @@
+{
+    "criteria": {
+            "Healing": {
+                "trigger": "minecraft:consume_item",
+            "conditions": {
+                    "item": {
+                        "item": "minecraft:potion",
+                    "potion": "minecraft:healing"
+                }
+            }
+        }
+    },
+    "requirements": [
+            [
+                "Healing"
+        ]
+    ],
+    "rewards": {
+            "function": "combsnap:healing_potion"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": "Snapshot Changes:                                                                ",
+        "description": ["",
+        {"text":"Faster Attacks","color":"green"},{"text":"\n"},
+        {"text":"Weapons are weaker overall.","color":"green"},{"text":"\n"},
+        {"text":"Overcharge instead of cooldown on attacks. Gain 1+ dmg at full charge.","color":"green"},{"text":"\n"},
+        {"text":"Missing has a much smaller penalty.","color":"green"},{"text":"\n"},
+        {"text":"Saturation now works as intended, as a pause, instead of more food.","color":"gold"},{"text":"\n"},
+        {"text":"Natural healing is faster.","color":"gold"},{"text":"\n"},
+        {"text":"Hunger depletes slower/ heals more.","color":"gold"},{"text":"\n"},
+        {"text":"Natural healing lasts longer.\n(Until: 6 points)","color":"gold"},{"text":"\n"},
+        {"text":"Tridents with loyalty will not be lost to the void!","color":"blue"},{"text":"\n"},
+        {"text":"Healing potions heal 6 points per level.","color":"dark_red"},{"text":"\n"},
+        {"text":"Sprinting below 3 hunger bars (if admin enabled).","color":"red"}
+    ],
+    "icon": {
+        "item": "minecraft:diamond_sword"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+    },
+    "parent": "inhauspacks:combsnap",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

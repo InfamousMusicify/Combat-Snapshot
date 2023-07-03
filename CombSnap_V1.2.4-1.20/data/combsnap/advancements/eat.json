@@ -1,0 +1,15 @@
+{
+    "criteria": {
+            "Eat": {
+                "trigger": "minecraft:consume_item"
+        }
+    },
+    "requirements": [
+            [
+                "Eat"
+        ]
+    ],
+    "rewards": {
+            "function": "combsnap:eat"
+    }
+}
