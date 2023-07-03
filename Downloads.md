@@ -1,7 +1,7 @@
 ## [Releases](https://github.com/InfamousMusicify/Combat-Snapshot/releases/) - [Tags](https://github.com/InfamousMusicify/Combat-Snapshot/tags/) - [Branches](https://github.com/InfamousMusicify/Combat-Snapshot/branches) - [Archive](https://github.com/InfamousMusicify/Combat-Snapshot/releases/tag/Archive)     
 
 
-### [🔗1.20](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.20/CombSnap_V1.1.6-1.20.zip)   
+### [🔗1.20](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.20/CombSnap_V1.2.4-1.20.zip)   
 
 ### [🔗1.19](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.19/CombSnap_V1.0.1-1.19.zip) - [🔗1.19.4](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.19.4/CombSnap_V1.0.1-1.19.4.zip)   
 
