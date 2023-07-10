@@ -11,7 +11,7 @@
         {"text":"Hunger depletes slower/ heals more.","color":"gold"},{"text":"\n"},
         {"text":"Natural healing lasts longer.\n(Until: 6 points)","color":"gold"},{"text":"\n"},
         {"text":"Tridents with loyalty will not be lost to the void!","color":"blue"},{"text":"\n"},
-        {"text":"Healing potions heal 6 points per level.","color":"dark_red"},{"text":"\n"},
+        {"text":"Health/Strength Potions Buffed.","color":"dark_red"},{"text":"\n"},
         {"text":"Sprinting below 3 hunger bars (if admin enabled).","color":"red"}
     ],
     "icon": {
