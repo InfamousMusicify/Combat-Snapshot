@@ -1,5 +1,5 @@
 #new
-execute unless score @s combsnap.overcharge matches 0.. run scoreboard players add @s combsnap.overcharge 0
+execute unless score @s combsnap.overcharge matches 0.. run scoreboard players set @s combsnap.overcharge 18
 execute unless score @s combsnap.regen_rate matches 0.. run scoreboard players add @s combsnap.regen_rate 0
 execute unless score @s combsnap.saturation matches 0.. run scoreboard players add @s combsnap.saturation 0
 execute unless score @s combsnap.saturation0 matches 0.. run scoreboard players add @s combsnap.saturation0 0
@@ -15,5 +15,5 @@ execute unless score #uninstall combsnap.config matches 1.. unless entity @s[tag
 
 
 
-execute unless score @s combsnap.food0 matches 0.. run scoreboard players add @s combsnap.food0 0
-execute unless score @s combsnap.food1 matches 0.. run scoreboard players add @s combsnap.food1 0
+#execute unless score @s combsnap.food0 matches 0.. run scoreboard players add @s combsnap.food0 0
+#execute unless score @s combsnap.food1 matches 0.. run scoreboard players add @s combsnap.food1 0

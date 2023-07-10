@@ -1,12 +1,7 @@
 # combsnap:health
 
 ###########################################################################################################################################################################
-
-
-#jebs system   1/3 hunger bar per half heart regen rate, every 2 seconds, this version ignore sturation altogether, jebs reverses current saturation essentially.
-#effect give @s minecraft:regeneration 2 1 true
-#effect give @s minecraft:hunger 1 25 true
-#scoreboard players operation @s combsnap.regen_rate = #cooldown combsnap.config
+# Vanilla Saturation/Health System 1.9-1.20+   +    jebs regen 
 
 ###########################################################################################################################################################################
 # 

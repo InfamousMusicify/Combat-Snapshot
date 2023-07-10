@@ -18,8 +18,8 @@
 -keep this in mind when implementing the new system you may not have to tweak things so far with functions due to cutting the base value while holding a weapon.
 # ########################  Removed other weapon enchantments from the enchanting table. The axes simply had too many possible enchantments. It also feels a little bit fitting with a rare Cleaving enchantment than a common Sharpness enchantment for axes                 -still same as usual vanilla he just added cleaving basically.
 
-Snowballs now stack to 64      -check for a datapack or some code to steal, check stability first before adding fullly
-Made it possible to hit players with snowballs
+# ############## Snowballs now stack to 64      -checked around but there is no elegant way to do this
+# ############## Made it possible to hit players with snowballs                -? research - possible but to lazy to implement, no predicate
 
 Prests - for combsanp = 0 and vanilla = 1 and Author = 2 systems.
 # ########################  Sprinting is no longer affected by the food value   -preset 2
@@ -27,14 +27,14 @@ Prests - for combsanp = 0 and vanilla = 1 and Author = 2 systems.
 
 Unsure of possibility:
 Bug fixes:
-* 7    Netherite weapons have updated stats       -is this refering to the snapshots having broken netherite in general or netherite in vanilla is broken and he patched it here?
+# ############## 7    Netherite weapons have updated stats       -is this refering to the snapshots having broken netherite in general or netherite in vanilla is broken and he patched it here?
 #####  these can be done but may be janky to implement
-# * 8    Weapon enchantments are now included in the base damage when calculating crits and potion effects
-* 8    Strength I/II now adds +20%/+40% (was +3/+6 damage)     -may be easier than i think
-* 8    Healing potions now heal 6 points per level (was 4)     -may be easier than i think
-* 8    Cleaving now adds +2/+3/+4 points of damage (was +1/+2/+3)      -
-* 8    Liquid food (stews, honey, milk) can now be consumed faster (20 ticks, was 32 or 40 ticks)      -this may be out of my hands.  may be able to implement detectors but seems worst possible for lag
-* 8    Potions can now be drunk faster (20 ticks, was 32 ticks)     - same as food speeds.
+# ############## 8    Weapon enchantments are now included in the base damage when calculating crits and potion effects              -cut for lag and laziness
+# ########################  8    Strength I/II now adds +20%/+40% (was +3/+6 damage)     -may be easier than i think
+# ########################  8    Healing potions now heal 6 points per level (was 4)     -may be easier than i think
+# ############## 8    Cleaving now adds +2/+3/+4 points of damage (was +1/+2/+3)      -cut for reasons.  laziness and lag
+# ############## 8    Liquid food (stews, honey, milk) can now be consumed faster (20 ticks, was 32 or 40 ticks)      -this may be out of my hands.  may be able to implement detectors but seems worst possible for lag
+# ############## 8    Potions can now be drunk faster (20 ticks, was 32 ticks)     - same as food speeds.
 
 ###########################################################################################################################################################################################################################
 
@@ -43,7 +43,7 @@ Bug fixes:
 # ########################  * 3    Returned Sword speed to 3.0 (from 2.5)
 
 # ########################  * 1    When you stop attacking, the attack timer will continue charging to 200%
-* 1    At 200% you can perform special attacks (crits, sweeping, knockback) and these attacks have longer reach
+# ############## 1    At 200% you can perform special attacks (crits, sweeping, knockback) and these attacks have longer reach               -cut for laziness and lack of control over implimentation
 # ########################  * 4    The full timer ("200%") attack now has +1.0 reach (was 0.5)
 # ########################  * 4    Critical attacks (jump-attacks) will now trigger at 100% (no need to wait)
 # ########################  * 7    Returned the "200% time" attacks (let's call them "charged" attacks) and the +1 reach bonus
@@ -78,15 +78,15 @@ Bug fixes:
 # ########################  * 5    Sprinting is no longer affected by the food value
 # ########################  * 6    By popular request - Reintroduced the rule that sprinting requires more than 6 points of food
 #####      Extras 
-* 3    Axes now only take 1 durability damage for attacking
+# ############## 3    Axes now only take 1 durability damage for attacking                -cant implement off the top of my head without hackiness
 # ########################  * 3    Axes now have a new "Chopping" enchantment that adds +1 damage and +.5s shield stun per level (max 3 levels)
 # 3    Added an option to hide the shield when it's active
 # ########################  * 3 The Chopping enchantment is experimental. You can still apply Sharpness to axes in the anvil, but Sharpness and Chopping are mutually exclusive. An option here is to change Chopping so that it only affects shields, and let axes get Sharpness from enchanting, but currently there are no mobs in the game that use shields so in that case Chopping would be meaningless in PvE.
 #####
 # 4    Removed the option to hide the shield
 # ########################  * 4    Tridents with Loyalty that fall into the void will return to its owner
-* 4    Tridents with Impaler now deal enchantment damage to all mobs that are in water or rain
-* 4    Snowballs now stack to 64
+# ############## 4    Tridents with Impaler now deal enchantment damage to all mobs that are in water or rain                   -cut because detection and execution and stuff is a gamble the way i wrote these systems
+# ############## 4    Snowballs now stack to 64
 # ########################  * 4    Chopping hasn't been changed (I point this out because there was a lot of Chopping feedback)
 #####
 * 5    Made it possible to hit players with snowballs (TODO: game rule)

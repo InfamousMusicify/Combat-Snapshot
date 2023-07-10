@@ -1,4 +1,4 @@
-# combsnap:health
+# combsnap:health2      --infamous's health system          --restore sat and hp above sprinting levels instead of just below as jebs.
 execute if score @s[scores={combsnap.food=10..}] combsnap.saturation < @s combsnap.saturation0 store result score @s combsnap.saturation run data get entity @s foodSaturationLevel
 
 effect give @s minecraft:regeneration 2 1 true
