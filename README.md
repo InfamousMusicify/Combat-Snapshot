@@ -10,9 +10,11 @@ Overcharge to 200% instead of a cooldown on attacks. gain 1+ dmg at full charge.
 Saturation now works as intended, as a pause, instead of more food.      
 Health recharges faster.   
 Hunger depletes slower (1/3 nugget to 1/2 heart)      
+Health / Strength Potions Buffed
 
 Optional in config: -off by default.    
 Sprinting below 3 nuggtes! (you will get speed 2 when your hunger falls below 6 points, workaround since sprint is locked)   
+Infinite Sprinting (choose with health regen or not)     
 
 ### [🔗Download🔗](https://github.com/InfamousMusicify/Combat-Snapshot/releases)  
 #### This pack pairs well with: [1.8 Combat](https://github.com/InfamousMusicify/1.8-Combat)
