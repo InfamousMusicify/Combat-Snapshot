@@ -11,7 +11,7 @@
 
 ### [🔗1.18+](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.18/CombSnap_V1.0.1-1.18.zip)        
 
-Untested Below:
+Untested Below: Backports Coming soon
 ### [🔗1.17+](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.17/CombSnap_V1.0.1-1.17.zip) (1.16-1.17+)   
 
 ### [🔗1.16.2 - 1.16.5](https://github.com/InfamousMusicify/Combat-Snapshot/releases/download/1.16.2/CombSnap_V1.0.1-1.16.zip)   
