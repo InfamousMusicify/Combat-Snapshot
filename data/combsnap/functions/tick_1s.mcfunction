@@ -1,5 +1,7 @@
 # combsnap:tick
 execute as @a run function combsnap:get_attributes
+execute as @a run function combsnap:get_absorption
+
 execute if score #dmg_mod combsnap.config matches 1 as @a run attribute @s minecraft:generic.attack_damage base set 1
 execute if score #overcharge_tgl combsnap.config matches 1 as @a run attribute @s minecraft:generic.attack_damage base set 1
 ## Jebs System
